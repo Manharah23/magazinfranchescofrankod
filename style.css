@@ -77,9 +77,9 @@ nav ul li a:hover{
     border-radius: 10px ;
     color: var(--cor-fonte-corpo-leve);
     transform: scale(1.1);
-    background-color: var(--cor-fonte);
+    background-color: var(--cor-fonte-corpo-leve);
     padding: 10px;
-    box-shadow: 0px 7px 7px var(--cor-btn-hover);
+    box-shadow: 0px 3px 3px var(--cor-btn-hover);
     border-radius: 7px;
 }
 .banner p{
@@ -331,6 +331,19 @@ ul{
     margin-left: 20px;
     display: none;
 }
+/*LISTAGEM DE PRODUTOS*/
+
+.novomenu nav ul li a{
+    color: var(--cor-btn-fonte);
+}
+
+.novomenu{
+    box-shadow: 0 6px 0 0 black;
+}
+
+.menuitens{
+    box-shadow: 0 6px 0 0 black;
+}
 
 
 
@@ -361,11 +374,51 @@ ul{
         display: block;
         cursor: pointer;
     }
+
+    .novomenu nav ul li a{
+        color: var(--cor-fonte);
+    }
     .navbar .logo img{
         margin-bottom: 30px;
+
     }
 
+    
+.linha2 select{
+    padding: 5px;
+    border: 1px solid var(--cor-padrao);
 }
+
+   
+.linha2 select:focus{
+    outline: none;
+}
+}
+/*paginacao*/
+  .paginacao{
+    margin: 0 auto 80px;
+  }
+
+.paginacao span{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid var(--cor-padrao);
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: .6s;
+
+}
+
+.paginacao span:hover{
+    background-color: var(--cor-padrao);
+    transform: scale(1.10);
+    color: var(--cor-fonte);
+}
+
  /*menucelular*/
 @media only screen and (max-width:600px){
    .linha{
@@ -384,5 +437,13 @@ ul{
    .coluna4 p{
     font-size: 24px;
    }
+
+   .novomenu nav ul li a{
+    color: var(--cor-fonte);
+}
+}
+.linha2{
+    margin: 100px auto 50px;
+    justify-content:space-between;
 }
 
