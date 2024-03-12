@@ -333,8 +333,13 @@ ul{
     width: 20px;
     margin-left: 20px;
     display: none;
-    margin-top: -85px;
+    margin-top: -95px;
 }
+
+.pst{
+    margin-top: -100px;
+}
+
 /*LISTAGEM DE PRODUTOS*/
 
 .novomenu nav ul li a{
